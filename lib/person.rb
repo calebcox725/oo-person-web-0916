@@ -62,8 +62,6 @@ class Person
     end
   end
 
-  # private
-
   def politics_conversation(friend)
     self.happiness -= 2
     friend.happiness -= 2
